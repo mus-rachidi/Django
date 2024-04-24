@@ -1,0 +1,53 @@
+# Django
+*.pyc
+*.pyo
+__pycache__/
+*.sqlite3
+
+# IDE/Text Editor
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.idea/
+*.pyc
+
+# System Files
+.DS_Store
+
+# Log Files
+*.log
+
+# Environment
+.env
+
+# Local Settings
+/local_settings.py
+
+# Dependency Management
+/venv/
+/pip-selfcheck.json
+
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database
+*.sqlite3
+
+# Static files
+/static/
+
+# Media files
+/media/
+
+# Docker
+docker-compose.yml
+.dockerignore
+
+# Ignore pipenv virtual environment
+/.venv
