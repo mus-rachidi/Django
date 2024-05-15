@@ -12,6 +12,13 @@ services:
       - ./.env.dev
     depends_on:
       - db
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+
   db:
     image: postgres:15
     volumes:

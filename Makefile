@@ -12,7 +12,7 @@ build:
 
 up:
 	@echo "Starting services..."
-	docker-compose up -d
+	docker-compose up 
 
 migrate:
 	@echo "Creating migrations..."
